@@ -1,0 +1,31 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+h1 {
+  margin-bottom: 0;
+}
+a {
+  color: $black;
+  font-family: $header-font-family;
+  text-transform: uppercase;
+}
+a:visited {
+  color: $black;
+}
+table.button table td a {
+  font-family: $header-font-family;
+}
+
+hr {
+  opacity: 0.1;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+th.callout-inner.primary {
+  border:none;
+}
